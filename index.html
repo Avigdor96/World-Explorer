@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button class="btn-country btnHeader">Where Am I</button>
+      <div class="dropdown">
+        <input class="input-country" type="text" placeholder="Search" />
+        <ul class="suggestions displayNone"></ul>
+      </div>
+      <button class="btn-search btnHeader">Search</button>
+    </header>
+    <!--<img src="./countriesAPI/the-finger-green-back_c.jpg">-->
+    <main class="container">
+      <div class="countries"></div>
+    </main>
+    <div class="modal hidden">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Weather Details</h2>
+        <p id="weather-data"></p>
+      </div>
+      <div class="map"></div>
+    </div>
+    <div class="overlay hidden"></div>
+    <footer class="footer">
+      <h2 class="Copyright">Avigdor Cohen. All rights reserved ©</h2>
+    </footer>
+    <script type="module" defer src="script.js"></script>
+  </body>
+</html>
