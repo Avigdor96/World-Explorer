@@ -47,10 +47,9 @@
   - [Google Maps Embed API](https://developers.google.com/maps/documentation/embed) for map integration.
 
 ---
-
 ## Live Demo 🌍
 
-[Visit World Explorer](https://your-project-name.netlify.app)
+[Visit World Explorer](https://world-explorer-api.netlify.app/)
 
 ---
 
